@@ -1,0 +1,24 @@
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+nav ul li a {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  
+  
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
