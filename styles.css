@@ -1,3 +1,11 @@
+body  {
+  align-items: center;
+}
+
+.wrapper  {
+  margin: 0 auto;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -22,24 +30,35 @@ nav ul li {
     margin-right: 30px;
 }
 
-.wrapper {
-    max-width: 1000px;
+section .hero {
+  background-image: url();
 }
 
-article {
-  display: flex;
+section .wrapper {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .bouton {
-  border-left: 45px;
-  border-right: 45px;
-  border-top: 15px;
-  border-bottom: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #b7b7b7;
   font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;}
-
-.bouton :hover {
-color: #ffffff;
+  font-weight: 700;
+  margin: 0 auto;
+  font-size: 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
 }
+
+.bouton:hover {
+color: #ffffff;
+background-color: #0E5EA1;
+}
+
