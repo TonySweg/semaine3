@@ -22,3 +22,24 @@ nav ul li {
     margin-right: 30px;
 }
 
+.wrapper {
+    max-width: 1000px;
+}
+
+article {
+  display: flex;
+}
+
+.bouton {
+  border-left: 45px;
+  border-right: 45px;
+  border-top: 15px;
+  border-bottom: 15px;
+  background-color: #b7b7b7;
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;}
+
+.bouton :hover {
+color: #ffffff;
+}
